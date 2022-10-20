@@ -4,16 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <title>Proyecto de Prueba</title>
 </head>
-<body>
-    <h1>Esto es la landing de About Us</h1>
-    <nav>
-        <ul>
-            <a href="index.html"><li> Home</li></a>
-            <a href="aboutus.html"><li> About</li></a>
-            <a href="contact.html"><li> Contact</li></a>
-        </ul>
-    </nav>
-</body>
+    <body>
+        <header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <div class="header-img2">
+            <p>Esta web tiene como objetivo ejemplificar la estructura de una Web sencilla</p>
+            <h1>Sobre Carlos y su Proyecto Web</h1>
+            <h2>Desnudando el código</h2>
+        </div>
+        <section>
+            <div>
+                <img
+                src="/images/img1.webp"
+                alt="img1"
+                id="img1"
+                width="300px"
+                />
+            </div>
+            <div>
+                <img
+                src="/images/img2.jfif"
+                alt="img2"
+                id="img2"
+                width="339px"
+                />
+            </div>
+            <div>
+                <img
+                src="/images/img3.jfif"
+                alt="img3"
+                id="img3"
+                width="300px"
+                />
+            </div>
+        </section>
+        <footer>
+            <article>
+                <form action="">
+                    <h4>Completa el formulario</h4>
+                    <div id="inputs">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre"/>
+                    </div>
+                    <div id="inputs">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido"/>
+                    </div>
+                    <div id="inputs">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="inputEmail" />
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+                <div id="player">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/egUfLNz14fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </article>
+        </footer>
+    </body>
 </html>

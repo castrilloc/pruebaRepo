@@ -7,69 +7,80 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <title>Proyecto de Prueba</title>
 </head>
-<body>
-    <header>
-    <h1 class="h1-ejemplo">¡Hola! ¡Mi nombre es Carlos y esta es mi Web!</h1>
-    <nav>
-        <ul>
-            <a href="index.html"><li> Home</li></a>
-            <a href="aboutus.html"><li> About</li></a>
-            <a href="contact.html"><li> Contact</li></a>
-        </ul>
-    </nav>
-    </header>
-<h2>Esta web tiene como objetivo ejemplificar la estructura de una Web sencilla</h2>
-<section>
-    <div>
-        <img
-        src="/images/img1.webp"
-        alt="img1"
-        id="img1"
-        width="300px"
-        />
-    </div>
-    <div>
-        <img
-        src="/images/img2.jpg"
-        alt="img2"
-        id="img2"
-        width="300px"
-        />
-    </div>
-    <div>
-        <img
-        src="/images/img3.jfif"
-        alt="img3"
-        id="img3"
-        width="300px"
-        />
-    </div>
-</section>
-    <footer>
-        <article>
-            <form action="">
-                <h4>Completa el formulario</h4>
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" />
-                </div>
-                <div>
-                    <label for="apellido">Apellido</label>
-                    <input type="text" name="apellido" id="apellido" />
-                </div>
-                <div>
-                    <label for="email">Nombre</label>
-                    <input type="text" name="email" id="email" />
-                </div>
-                <div>
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Reset</button>
-                </div>
-            </form>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11049.656029538786!2d-58.53607778353622!3d-34.576781724703025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1666139942428!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <body>
+        <header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <div class="header-img">
+            <p>Esta web tiene como objetivo ejemplificar la estructura de una Web sencilla</p>
+            <h1>Mi nombre es Carlos y esta es mi Web</h1>
+            <h2>Desnudando el código</h2>
+        </div>
+        <section id="section-img">
+            <div class="div-img">
+                <img
+                src="/images/img1.webp"
+                alt="img1"
+                id="img1"
+                width="300px"
+
+                />
             </div>
-        </article>
-    </footer>
-</body>
+            <div class="div-img">
+                <img
+                src="/images/img2.jfif"
+                alt="img2"
+                id="img2"
+                width="338px"
+                />
+            </div>
+            <div class="div-img">
+                <img
+                src="/images/img3.jpg"
+                alt="img3"
+                id="img3"
+                width="254px"
+                />
+            </div>
+        </section>
+        <div id="prefooter">
+            <article>
+                <form action="">
+                    <h4>Completa el formulario</h4>
+                    <div id="inputs">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre"/>
+                    </div>
+                    <div id="inputs">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido"/>
+                    </div>
+                    <div id="inputs">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="inputEmail" />
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+                <div id="player">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/egUfLNz14fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </article>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="index.html">Facebook</a></li>
+                <li><a href="aboutus.html">Instagram</a></li>
+                <li><a href="contact.html">Twitter</a></li>
+            </ul>
+        </footer>
+    </body>
 </html>
