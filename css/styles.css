@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
 @import "../node_modules/bootstrap/scss/functions";
+@import url(../css/variables.css);
 * {
     margin: 0;
     padding: 0;
@@ -40,11 +41,11 @@ nav ul li {
 }
 
 nav ul li a {
-color: #fdfdfd;
-display: inline-block;
-padding: 10px;
-text-decoration: none;
-margin: 0 30px;
+    color: #fdfdfd;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 30px;
 }
 
 .header-img {
@@ -62,6 +63,8 @@ margin: 0 30px;
 #header-txt {
     color: #fff;
     flex-wrap: nowrap;
+    padding: 30px;
+    text-align: center;
 }
 
 .header-img2 {
@@ -187,6 +190,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 footer ul {
@@ -209,4 +213,16 @@ footer ul li a {
 
 #footer ul li a:hover {
     background-color: #5c68d8;
+}
+
+@media (min-width: 320px) {
+    footer ul li a {
+        color: #fdfdfd;
+        display: inline-block;
+        text-decoration: none;
+        margin: 0px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        scale: 85%;
+        }
 }
