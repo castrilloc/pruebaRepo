@@ -48,18 +48,24 @@ margin: 0 30px;
 }
 
 .header-img {
-    background-image: url(/images/background.jpg);
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
     height: 500px;
     background-size: cover;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#header-txt {
     color: #fff;
+    flex-wrap: nowrap;
 }
 
 .header-img2 {
-    background-image: url(/images/background2.jpg);
+    background-image: url(./images/background2.jpg);
     height: 500px;
     background-size: cover;
     display: flex;
