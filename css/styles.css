@@ -48,7 +48,7 @@ margin: 0 30px;
 }
 
 .header-img {
-    background-image: url(./images/background.jpg);
+    background-image: url(/images/background.jpg);
     height: 500px;
     background-size: cover;
     display: flex;
