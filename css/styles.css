@@ -62,7 +62,6 @@ header {
     display: flex;
     justify-content: space-between;
     height: 40px;
-    width: 100%;
     background: var(--darkGrey);
     align-items: center;
 }
@@ -85,7 +84,7 @@ nav ul li:hover {
 }
 
 nav ul {
-    float: right;
+    display: flex;
     margin-right: 20px;
 }
 
@@ -102,6 +101,7 @@ nav ul li a {
     border-radius: 3px;
     text-transform: uppercase;
     text-decoration: none;
+    height: 100%;
 }
 
 .nav-toggle {
@@ -272,6 +272,9 @@ footer ul li a {
 }
 
 @media (max-width: 768px) {
+    .nav a {
+        align-items: center;
+    }
     .body {
         padding-top: 70px;
     }
@@ -309,6 +312,8 @@ footer ul li a {
     
     .nav-menu-item:hover {
         background-color: #5c68d8;
+        
+        width: 100%;
         transition: .3s;
         border-radius: 0;
     }
