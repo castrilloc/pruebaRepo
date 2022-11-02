@@ -97,7 +97,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    /* line-height: 20px; */
+    line-height: 20px;
     margin: auto;
 }
 
