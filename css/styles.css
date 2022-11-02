@@ -8,7 +8,8 @@
 }
 
 body {
-    font-family: Roboto Slab;
+
+    font-family: var(--bs-body-font-family);
     background: var(--darkGrey);
     padding: 90px 0 0;
 }
@@ -61,9 +62,10 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
-    height: 40px;
+    height: 50px;
     background: var(--darkGrey);
     align-items: center;
+    width: auto;
 }
 
 .logo {
@@ -77,21 +79,22 @@ header {
     padding: 5px 15px;
 }
 
-nav ul li:hover {
+/* nav ul li:hover {
     background-color: #5c68d8;
     transition: .5s;
     border-radius: 30px;
-}
+} */
 
 nav ul {
     display: flex;
     margin-right: 20px;
+    margin-bottom: 0px;
 }
 
 nav ul li {
     display: inline-block;
     line-height: 20px;
-    margin: 0 5px;
+    margin: auto;
 }
 
 nav ul li a {
@@ -295,11 +298,11 @@ footer ul li a {
         background-color: var(--ligthGrey);
         position: fixed;
         left: 0;
-        top: 60px;
+        top: 90px;
         width: 100%;
         padding: 20px 0;
 
-        height: calc(100% - 60px);
+        height: calc(100% - 90px);
         overflow-y: auto;
 
         left: 100%;
@@ -308,12 +311,14 @@ footer ul li a {
     
     .nav-menu-item {
         line-height: 70px;
+        text-decoration: none;
     }
     
     .nav-menu-item:hover {
         background-color: #5c68d8;
-        
         width: 100%;
+        display: flex;
+        justify-content: space-around;
         transition: .3s;
         border-radius: 0;
     }

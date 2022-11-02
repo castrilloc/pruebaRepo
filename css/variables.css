@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
 :root {
     --darkGrey: #131718;
     --ligthGrey : #38404b;
     --ligthViolete : #5c68d8;
+    --bs-body-font-family: 'Roboto Slab', serif;
 }
