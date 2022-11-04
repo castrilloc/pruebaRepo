@@ -79,12 +79,6 @@ header {
     padding: 5px 15px;
 }
 
-/* nav ul li:hover {
-    background-color: #5c68d8;
-    transition: .5s;
-    border-radius: 30px;
-} */
-
 nav ul {
     display: flex;
     margin-right: 20px;
@@ -115,6 +109,16 @@ nav ul li a {
 
     display: none;
     cursor: pointer;
+}
+
+#login-btn {
+    color: #fdfdfd;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 100%;
+    background-color: var(--ligthViolete);
+    border-radius: 5px;
 }
 
 .header-img {
