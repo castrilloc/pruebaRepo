@@ -8,13 +8,13 @@
 }
 
 body {
-
     font-family: var(--bs-body-font-family);
-    padding: 90px 0 0;
     background-image: url(../images/login_background2.jpg);
+    padding: 90px 0 0;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
     object-fit: cover;
-    -webkit-filter: #131718(100%);
-    -webkit-filter: #131718(100%);
     background-size: cover;
 }
 
@@ -321,6 +321,9 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer ul {

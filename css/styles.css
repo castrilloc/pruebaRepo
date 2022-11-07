@@ -8,10 +8,12 @@
 }
 
 body {
-
     font-family: var(--bs-body-font-family);
     background: var(--darkGrey);
     padding: 90px 0 0;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
 }
 
 /*Hamburguer Menu*/
@@ -254,6 +256,9 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer ul {
